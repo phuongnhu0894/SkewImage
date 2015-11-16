@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8767661BF9CA56007F761A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8767651BF9CA56007F761A /* main.m */; };
+		3F8767691BF9CA56007F761A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8767681BF9CA56007F761A /* AppDelegate.m */; };
+		3F87676C1BF9CA56007F761A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F87676B1BF9CA56007F761A /* ViewController.m */; };
+		3F87676F1BF9CA56007F761A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87676D1BF9CA56007F761A /* Main.storyboard */; };
+		3F8767711BF9CA56007F761A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8767701BF9CA56007F761A /* Assets.xcassets */; };
+		3F8767741BF9CA56007F761A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8767721BF9CA56007F761A /* LaunchScreen.storyboard */; };
+		3F87677C1BF9D134007F761A /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F87677B1BF9D134007F761A /* france.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F8767611BF9CA56007F761A /* SkewImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkewImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8767651BF9CA56007F761A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8767671BF9CA56007F761A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8767681BF9CA56007F761A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F87676A1BF9CA56007F761A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F87676B1BF9CA56007F761A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F87676E1BF9CA56007F761A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8767701BF9CA56007F761A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8767731BF9CA56007F761A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8767751BF9CA56007F761A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F87677B1BF9D134007F761A /* france.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = france.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F87675E1BF9CA56007F761A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8767581BF9CA56007F761A = {
+			isa = PBXGroup;
+			children = (
+				3F8767631BF9CA56007F761A /* SkewImage */,
+				3F8767621BF9CA56007F761A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8767621BF9CA56007F761A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8767611BF9CA56007F761A /* SkewImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8767631BF9CA56007F761A /* SkewImage */ = {
+			isa = PBXGroup;
+			children = (
+				3F87677B1BF9D134007F761A /* france.png */,
+				3F8767671BF9CA56007F761A /* AppDelegate.h */,
+				3F8767681BF9CA56007F761A /* AppDelegate.m */,
+				3F87676A1BF9CA56007F761A /* ViewController.h */,
+				3F87676B1BF9CA56007F761A /* ViewController.m */,
+				3F87676D1BF9CA56007F761A /* Main.storyboard */,
+				3F8767701BF9CA56007F761A /* Assets.xcassets */,
+				3F8767721BF9CA56007F761A /* LaunchScreen.storyboard */,
+				3F8767751BF9CA56007F761A /* Info.plist */,
+				3F8767641BF9CA56007F761A /* Supporting Files */,
+			);
+			path = SkewImage;
+			sourceTree = "<group>";
+		};
+		3F8767641BF9CA56007F761A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8767651BF9CA56007F761A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8767601BF9CA56007F761A /* SkewImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8767781BF9CA56007F761A /* Build configuration list for PBXNativeTarget "SkewImage" */;
+			buildPhases = (
+				3F87675D1BF9CA56007F761A /* Sources */,
+				3F87675E1BF9CA56007F761A /* Frameworks */,
+				3F87675F1BF9CA56007F761A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkewImage;
+			productName = SkewImage;
+			productReference = 3F8767611BF9CA56007F761A /* SkewImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8767591BF9CA56007F761A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Techmaster;
+				TargetAttributes = {
+					3F8767601BF9CA56007F761A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F87675C1BF9CA56007F761A /* Build configuration list for PBXProject "SkewImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8767581BF9CA56007F761A;
+			productRefGroup = 3F8767621BF9CA56007F761A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8767601BF9CA56007F761A /* SkewImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F87675F1BF9CA56007F761A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87677C1BF9D134007F761A /* france.png in Resources */,
+				3F8767741BF9CA56007F761A /* LaunchScreen.storyboard in Resources */,
+				3F8767711BF9CA56007F761A /* Assets.xcassets in Resources */,
+				3F87676F1BF9CA56007F761A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F87675D1BF9CA56007F761A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87676C1BF9CA56007F761A /* ViewController.m in Sources */,
+				3F8767691BF9CA56007F761A /* AppDelegate.m in Sources */,
+				3F8767661BF9CA56007F761A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F87676D1BF9CA56007F761A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87676E1BF9CA56007F761A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8767721BF9CA56007F761A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8767731BF9CA56007F761A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8767761BF9CA56007F761A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F8767771BF9CA56007F761A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8767791BF9CA56007F761A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkewImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.SkewImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F87677A1BF9CA56007F761A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkewImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.SkewImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F87675C1BF9CA56007F761A /* Build configuration list for PBXProject "SkewImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8767761BF9CA56007F761A /* Debug */,
+				3F8767771BF9CA56007F761A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8767781BF9CA56007F761A /* Build configuration list for PBXNativeTarget "SkewImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8767791BF9CA56007F761A /* Debug */,
+				3F87677A1BF9CA56007F761A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8767591BF9CA56007F761A /* Project object */;
+}
