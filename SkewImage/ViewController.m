@@ -19,16 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.slider addTarget:self action:@selector(changeAngle) forControlEvents:UIControlEventValueChanged];
-    
-//    UIImage* flag = [UIImage imageNamed:@"france.png"];
-//    CALayer* myLayer = [CALayer layer];
-//    CGFloat nativeWidth = CGImageGetWidth(flag.CGImage);
-//    CGFloat nativeHeight = CGImageGetHeight(flag.CGImage);
-//    CGRect startFrame = CGRectMake((self.view.bounds.size.width - nativeWidth)/2, 100,nativeWidth, nativeHeight);
-//    myLayer.contents = (id)flag.CGImage;
-//    myLayer.frame = startFrame;
-//    myLayer.anchorPoint = CGPointMake(0.5, 0.5);
-//    [self.view.layer addSublayer:myLayer];
 }
 //- (IBAction)changeAngle:(id)sender {
 //    CGFloat angle = 180.0f * ((UISlider *)sender).value * M_PI / 180.0f;
