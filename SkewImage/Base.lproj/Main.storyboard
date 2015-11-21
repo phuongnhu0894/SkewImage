@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,10 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gg8-5G-Zjf">
-                                <rect key="frame" x="18" y="307" width="520" height="31"/>
-                                <animations/>
-                            </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="france.png" translatesAutoresizingMaskIntoConstraints="NO" id="k5g-vU-YDx">
                                 <rect key="frame" x="180" y="78" width="240" height="175"/>
                                 <animations/>
@@ -29,15 +25,19 @@
                                     <constraint firstAttribute="width" constant="240" id="rMm-6Y-m1f"/>
                                 </constraints>
                             </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gg8-5G-Zjf">
+                                <rect key="frame" x="40" y="306" width="520" height="31"/>
+                                <animations/>
+                            </slider>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="gg8-5G-Zjf" secondAttribute="trailing" constant="44" id="8JW-yw-Svg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gg8-5G-Zjf" secondAttribute="trailing" constant="22" id="8JW-yw-Svg"/>
                             <constraint firstItem="k5g-vU-YDx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tfe-0L-Mar"/>
-                            <constraint firstItem="gg8-5G-Zjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aIB-2i-CYf"/>
+                            <constraint firstItem="gg8-5G-Zjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="aIB-2i-CYf"/>
                             <constraint firstItem="k5g-vU-YDx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="hjq-FX-MtC"/>
-                            <constraint firstItem="gg8-5G-Zjf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="287" id="tDy-Ff-Gtu"/>
+                            <constraint firstItem="gg8-5G-Zjf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="286" id="tDy-Ff-Gtu"/>
                         </constraints>
                     </view>
                     <connections>
